@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		test
+	</title>
+	<style>
+		#container{
+			width:1000px;
+			background:gray;
+		}
+		#header{
+			height:120px;
+			background:blue;
+		}
+		#min{
+			height:600px;
+			background:red;
+		}
+		#last{
+			beight:120;
+			background:black;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="container">
+		<div id="header"></div>
+		<div id="min">
+			<div id="minl">
+				<div id="minl1"></div>
+				<div id="minl2"></div>
+				<div id="minl3"></div>
+				<div id="minl4"></div>
+			</div>
+			<div id="minr">
+				<div id="minr1"></div>
+				<div id="minr2"></div>
+			</div>
+		</div>
+		<div id="last"></div>
+	</div>
+</body>
+</html>

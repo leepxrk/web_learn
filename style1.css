@@ -1,0 +1,207 @@
+.head{
+	width:100%;
+	height:90px;
+	background:write;
+}
+
+.headup{
+	width:100%;
+	height:90px;
+	background:write;
+
+}
+
+#name{
+	width:50%;
+	height:95px;
+	background:white;
+	float:left;
+}
+
+#label{
+	width:50%;
+	height:95px;
+	background:white;
+	float:right;
+}
+
+.headdown{
+	width:100%;
+	height:160px;
+	background:black;
+	float:left;
+}
+
+
+.body{
+	width:100%;
+	background:write;
+	float:left;
+}
+
+.bodyleft{
+	width:35%;
+	height: 1000px;
+	background:write;
+	float:left;
+}
+
+#bodyleftup{
+	width:100%;
+	height:200px;
+	background:black;
+	float:left;
+}
+
+#bodyleftdown{
+	width:100%;
+	height:300px;
+	background:gray;
+	float:left;
+}
+
+.bodyright{
+	width:65%;
+	height:1000px;
+	background:gray;
+	float:right;
+}
+
+.tail{
+	width:100%;
+	height:300px;
+	background:gray;
+	float:left;
+}
+#tailleft{
+	width:25%;
+	height:300px;
+	background:gray;
+	float:left;
+}
+
+#tailminleft{
+	width:25%;
+	height:300px;
+	background:gray;
+	float:left;
+}
+
+#tailright{
+	width:25%;
+	height:300px;
+	background:gray;
+	float:right;
+}
+
+#tailminright{
+	width:25%;
+	height:300px;
+	background:gray;
+	float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#head{
+	width:100%;
+	background:black;
+}
+
+	#container{
+		width:1000px;
+		background:black;
+		margin:0px auto;
+	}
+	#header{
+		height:120px;
+		background:blue;
+	}
+	#min{
+		height:600px;
+		background:red;
+	}
+	#minl{
+		height:600px;
+		width:680px;
+		float:left;
+	}
+	#minbl{
+
+	}
+	#minr{
+		height:600px;
+		width:320px;
+		float:right;
+	}
+	.four{
+		height:240px;
+		width:270px;
+		background:white;
+		float:left;
+		margin:10px;
+		border:10px solid gold;
+		border-top:10px solid orange;
+		border-bottom:10px solid orange;
+		padding:10px;
+	}
+	.two{
+		height:260px;
+		width:290px;
+		margin:10px;
+		float:right;
+		background:blue;
+		margin:10px;
+		border:10px solid gold;
+		border-top:10px solid orange;
+		border-bottom:10px solid orange;
+	}
+	
+	.last{
+		height:120px;
+		background:black;
+	}
+	#sanjx{
+		width:0px;
+		height:0px;
+		background:gold;
+		float:left;
+		margin:20px;
+		border-top:100px solid black;
+		border-right:100px solid Transparent;
+		border-bottom:100px solid Transparent;			
+		border-left:100px solid Transparent;
+	}
+
+
+	
