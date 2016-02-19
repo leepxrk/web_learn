@@ -1,0 +1,69 @@
+<style>
+/*头部主css*/
+    .head{
+        width:100%;
+        height:150px;
+	  	  background:#464646;
+    }
+
+/*头部左侧主css*/
+    .head_left{
+        width:28%;
+        height:150px;
+	  	  background:#464646;
+        float: left;
+    }
+
+
+
+
+/*头部右侧主css*/
+    .head_right{
+        float: right;
+        width:72%;
+        height:150px;
+        background:#464646;
+        color:#CCCCCC;
+        font-family: SimSun;
+    }
+/*头部右侧字体控制css*/
+    .head_right span{
+        font-size: 13;
+    }
+
+/*头部右侧div控制css*/
+    .head_right_1{
+        float: left;
+        width:12.5%;
+        height:150px;
+        background: #464646;
+    }
+    .head_right_1_up{
+        width:12.5%;
+        height:10px;
+        background: #464646;
+      }
+    .head_right_1:hover{
+      width:12.5%;
+      height:10px;
+      background: #EC185B;
+      background:#212121；
+      color:#CCCCCC;
+    }
+
+
+
+
+/*以下是第二层的css*/
+    .body{
+        width:100%;
+        height:50;
+        background:#232323;
+        float:left;
+    }
+    .body_right{
+        float:right;
+    }
+
+
+</style>
