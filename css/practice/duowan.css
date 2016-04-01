@@ -1,0 +1,79 @@
+<style>
+/*头部*/
+    .head{
+        width:1280px;
+	  	background:#2D2D2D;
+    }
+
+/*头部左侧*/
+    .head_left{
+        width:290px;
+        height:130px;
+	  	background:#2D2D2D;
+        float: left;
+        display:block;
+        margin:0 auto;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    
+    .head_left .duowan_logo{
+        height:88px;
+        width:243px;
+        margin:31 0 31 0;
+    }
+
+/*头部右侧主css*/
+    .head_right{
+        float: left;
+        width:860px;
+        height:150px;
+        background:#464646;
+        color:#CCCCCC;
+        font-family: SimSun;
+    }
+
+/*头部右侧div顶部css*/
+    .head_right_up{
+        width:107px;
+        height:10px;
+        background: #2d2d2d;
+    }
+
+    /*头部右侧div顶部鼠标悬停状态*/
+    .head_right_up:hover{
+        background: #B41A4B;
+    }
+
+/*头部右侧div控制css*/
+    .head_right_main{
+        float: left;
+        height:150px;
+        width:97px;
+        background: #2d2d2d;
+        padding-left: 10px;
+     }
+
+/*head_right_1 鼠标悬停效果*/
+    .head_right_main:hover{
+        color:#B41A4B;
+        width:97px;
+        height:10px;
+        padding-left: 10px;
+        background:#212121;
+    }
+
+    .head_right_main a {
+        color: #cccccc;
+        font-size:14;
+        text-decoration: none;
+    }
+
+/*a标签鼠标悬停*/
+    .head_right_main a:hover {
+        color: #B41A4B;
+        text-decoration: underline;
+    }
+
+
+</style>
