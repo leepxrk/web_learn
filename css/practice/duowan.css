@@ -1,7 +1,13 @@
 <style>
+
+    .head_left{
+	  	background:#2D2D2D;
+    }
+
 /*头部*/
     .head{
-        width:1280px;
+      margin:0 auto;
+      width:1280px;
 	  	background:#2D2D2D;
     }
 
@@ -9,14 +15,14 @@
     .head_left{
         width:290px;
         height:130px;
-	  	background:#2D2D2D;
+	  	  background:#2D2D2D;
         float: left;
         display:block;
         margin:0 auto;
         padding-left: 30px;
         padding-top: 20px;
     }
-    
+
     .head_left .duowan_logo{
         height:88px;
         width:243px;
@@ -61,7 +67,10 @@
         height:10px;
         padding-left: 10px;
         background:#212121;
-    }
+        }
+        .head_right_main .head_right_up:hover{
+          background: #B41A4B;
+        }
 
     .head_right_main a {
         color: #cccccc;
