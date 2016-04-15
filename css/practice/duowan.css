@@ -7,13 +7,18 @@
 /*头部*/
     .head{
       margin:0 auto;
-      width:1280px;
+      width:100%;
 	  	background:#2D2D2D;
+      float: left;
+      clear:both;
+    }
+    .head_main{
+      width: 100%;
     }
 
 /*头部左侧*/
-    .head_left{
-        width:290px;
+    .head_main_left{
+        width:17.2%;
         height:130px;
 	  	  background:#2D2D2D;
         float: left;
@@ -21,60 +26,50 @@
         margin:0 auto;
         padding-left: 30px;
         padding-top: 20px;
+        clear: both;
     }
 
-    .head_left .duowan_logo{
-        height:88px;
-        width:243px;
-        margin:31 0 31 0;
-    }
+
 
 /*头部右侧主css*/
-    .head_right{
+    .head_main_right{
         float: left;
-        width:860px;
+        width:80%;
         height:150px;
         background:#464646;
         color:#CCCCCC;
         font-family: SimSun;
     }
 
-/*头部右侧div顶部css*/
-    .head_right_up{
-        width:107px;
-        height:10px;
-        background: #2d2d2d;
-    }
-
-    /*头部右侧div顶部鼠标悬停状态*/
-    .head_right_up:hover{
-        background: #B41A4B;
-    }
-
 /*头部右侧div控制css*/
     .head_right_main{
         float: left;
-        height:150px;
-        width:97px;
+        height:147px;
+        width:11.5%;
         background: #2d2d2d;
-        padding-left: 10px;
+        padding-left: 1%;
+        border-top-style: solid;
+        border-top-width: 3px;
+        border-top-color: #2d2d2d;
      }
 
 /*head_right_1 鼠标悬停效果*/
     .head_right_main:hover{
-        color:#B41A4B;
-        width:97px;
-        height:10px;
-        padding-left: 10px;
+        width:11.5%;
+        height:147px;
+        padding-left: 1%;
         background:#212121;
-        }
-        .head_right_main .head_right_up:hover{
-          background: #B41A4B;
-        }
+        border-top-style:solid;
+        border-top-color:#B41A4B;
+        border-top-width: 4px;
+      }
 
+
+/*字体设置*/
     .head_right_main a {
         color: #cccccc;
-        font-size:14;
+        font-size:10;
+        font-family:SimSun;
         text-decoration: none;
     }
 
@@ -83,6 +78,75 @@
         color: #B41A4B;
         text-decoration: underline;
     }
+
+
+/*导航栏第二行*/
+    .head_down{
+        width:100%;
+        height:30px;
+        margin:0 auto;
+        background:#212121;
+    }
+
+/*导航栏下部分选项*/
+    .head_down_nav{
+        height: 30px;
+        width: 8%;
+        background: #212121;
+        float: left;
+        font-size: 14;
+        color:#cccccc;
+        padding-left: 4%;
+        padding-top:15px;
+    }
+    .head_down_nav:hover{
+      height: 30px;
+      width: 8%;
+      background: #000000;
+      float: left;
+    }
+
+/*导航栏下部分搜索*/
+    .head_down_search{
+      background: #212121;
+      height: 30px;
+      width: 250px;
+      float:right;
+    }
+    .head_down_search .search_input{
+      width: 200px;
+      margin:15 20;
+    }
+
+/**/
+
+
+
+
+    .body_head{
+      width: 100%;
+      height: 20px;
+      margin:0 auto;
+      background:#274298;
+      float: left;
+    }
+
+    .body_main{
+      width: 100%;
+      height: 40px;
+      margin:0 auto;
+      background:#286425;
+      float: left;
+    }
+
+    .body_main_module{
+      width: 100%;
+      height: 20px;
+      margin:0 auto;
+      background:#148476;
+      float: left;
+    }
+
 
 
 </style>
