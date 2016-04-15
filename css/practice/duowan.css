@@ -2,6 +2,8 @@
 
     .head_left{
 	  	background:#2D2D2D;
+      margin:0 auto;
+      width:100%;
     }
 
 /*头部*/
@@ -39,18 +41,6 @@
         font-family: SimSun;
     }
 
-/*头部右侧div顶部css*/
-    .head_right_up{
-        width:107px;
-        height:10px;
-        background: #2d2d2d;
-    }
-
-    /*头部右侧div顶部鼠标悬停状态*/
-    .head_right_up:hover{
-        background: #B41A4B;
-    }
-
 /*头部右侧div控制css*/
     .head_right_main{
         float: left;
@@ -74,7 +64,12 @@
 
     .head_right_main a {
         color: #cccccc;
-        font-size:14;
+        text-decoration: none;
+    }
+
+    .head_right_main_span a{
+        color: #cccccc;
+        font-size:12;
         text-decoration: none;
     }
 
