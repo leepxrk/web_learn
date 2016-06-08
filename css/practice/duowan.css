@@ -9,7 +9,8 @@
 /*头部*/
     .head{
       margin:0 auto;
-      width:1280px;
+      width:100%;
+      height: 150px;
 	  	background:#2D2D2D;
     }
 
@@ -34,7 +35,7 @@
 /*头部右侧主css*/
     .head_right{
         float: left;
-        width:860px;
+        width:85%;
         height:150px;
         background:#464646;
         color:#CCCCCC;
@@ -45,20 +46,23 @@
     .head_right_main{
         float: left;
         height:150px;
-        width:97px;
+        width:80px;
         background: #2d2d2d;
         padding-left: 10px;
+        padding-right: 10px
      }
 
 /*head_right_1 鼠标悬停效果*/
     .head_right_main:hover{
         color:#B41A4B;
-        width:97px;
-        height:10px;
+        width:80px;
+        height:4px;
         padding-left: 10px;
+        padding-right: 10px;
         background:#212121;
+
         }
-        .head_right_main .head_right_up:hover{
+        .head_right_main:hover{
           background: #B41A4B;
         }
 
@@ -72,11 +76,16 @@
         font-size:12;
         text-decoration: none;
     }
+  .head_right_main_heading a{
+        color: #cccccc;
+        font-size:16;
+  }
 
 /*a标签鼠标悬停*/
     .head_right_main a:hover {
         color: #B41A4B;
         text-decoration: underline;
+
     }
 
 
