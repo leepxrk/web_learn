@@ -2,8 +2,6 @@
 
 var numberOfBlings = 1 + 3;
 var numberOfCandies = 8;
-document.write(numberOfCandies / numberOfBlings);
-<<<<<<< HEAD
 document.write("<br />");
 
 
@@ -187,45 +185,6 @@ document.write(allTheAnimal.indexOf("petHamster"));
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-=======
-
-
 //计算时间
 var secondsInAminute = 60;
 var minutesInAnHour = 60;
@@ -244,4 +203,4 @@ if (number<100) {
     ++ number
 };
 document.write(++number);
->>>>>>> refs/remotes/origin/js_learn
+
