@@ -92,6 +92,7 @@
 	width:100%;
 	height: 40px;
 	background:rgb(0, 0, 0);
+	text-align: center;
 }
 
 
@@ -100,7 +101,7 @@
 	width:100%;
 	height:60px;
 	background:#222;
-	text-align:center
+	text-align:center;
 }
 
 .topbar_top_top{
