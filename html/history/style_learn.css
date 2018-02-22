@@ -1,0 +1,16 @@
+li strong bdo{
+	color:green;
+    font-family:"sans serif";
+	font-size: 16px;
+}
+
+strong bdo{
+	color:red;
+	font-size: 46px;
+}
+
+body{
+	color: blue;
+	font-size: 46px;
+    font-family:serif;
+}

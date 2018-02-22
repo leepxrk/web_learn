@@ -29,6 +29,7 @@
 	height:280px;
 	background:rgb(77, 67, 67);
 	text-align:center;
+	float: left;
 }
 
 .topbar_down{
@@ -90,17 +91,27 @@
 
 .topbar_down{
 	width:100%;
-	height: 40px;
-	background:rgb(0, 0, 0);
+	height: 38px;
+	float: left;
+	text-align: center;
 }
 
+
+#topbar_down_mune{
+	width:58px;
+	height: 38px;
+	text-align: center;
+	background:rgb(0, 0, 0);
+	float: left;
+	font-size: 14px;
+}
 
 
 .topbar_top{
 	width:100%;
 	height:60px;
 	background:#222;
-	text-align:center
+	text-align:center;
 }
 
 .topbar_top_top{
