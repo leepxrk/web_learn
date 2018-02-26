@@ -2,12 +2,18 @@
 
     .head_left{
 	  	background:#2D2D2D;
+      margin:0 auto;
+      width:100%;
     }
 
 /*头部*/
     .head{
       margin:0 auto;
       width:100%;
+<<<<<<< HEAD
+      height: 150px;
+=======
+>>>>>>> refs/remotes/origin/js_learn
 	  	background:#2D2D2D;
       float: left;
       clear:both;
@@ -34,7 +40,11 @@
 /*头部右侧主css*/
     .head_main_right{
         float: left;
+<<<<<<< HEAD
+        width:85%;
+=======
         width:80%;
+>>>>>>> refs/remotes/origin/js_learn
         height:150px;
         background:#464646;
         color:#CCCCCC;
@@ -44,6 +54,13 @@
 /*头部右侧div控制css*/
     .head_right_main{
         float: left;
+<<<<<<< HEAD
+        height:150px;
+        width:80px;
+        background: #2d2d2d;
+        padding-left: 10px;
+        padding-right: 10px
+=======
         height:147px;
         width:11.5%;
         background: #2d2d2d;
@@ -51,10 +68,24 @@
         border-top-style: solid;
         border-top-width: 3px;
         border-top-color: #2d2d2d;
+>>>>>>> refs/remotes/origin/js_learn
      }
 
 /*head_right_1 鼠标悬停效果*/
     .head_right_main:hover{
+<<<<<<< HEAD
+        color:#B41A4B;
+        width:80px;
+        height:4px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background:#212121;
+
+        }
+        .head_right_main:hover{
+          background: #B41A4B;
+        }
+=======
         width:11.5%;
         height:147px;
         padding-left: 1%;
@@ -63,20 +94,35 @@
         border-top-color:#B41A4B;
         border-top-width: 4px;
       }
+>>>>>>> refs/remotes/origin/js_learn
 
 
 /*字体设置*/
     .head_right_main a {
         color: #cccccc;
+<<<<<<< HEAD
+=======
         font-size:10;
         font-family:SimSun;
+>>>>>>> refs/remotes/origin/js_learn
         text-decoration: none;
     }
+
+    .head_right_main_span a{
+        color: #cccccc;
+        font-size:12;
+        text-decoration: none;
+    }
+  .head_right_main_heading a{
+        color: #cccccc;
+        font-size:16;
+  }
 
 /*a标签鼠标悬停*/
     .head_right_main a:hover {
         color: #B41A4B;
         text-decoration: underline;
+
     }
 
 
